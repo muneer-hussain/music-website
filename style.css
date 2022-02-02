@@ -1,0 +1,418 @@
+/*updated code*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color: #252529;
+}
+
+.navbar li {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+nav {
+    display: block;
+}
+
+
+/* 3 bars icon visible only in screens containing width less than 500px*/
+
+.navbar-icon {
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+/* results when user click on the button*/
+
+.navbar li:hover {
+    background-color: red;
+}
+
+
+/* mytunes section */
+
+.section-1 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* h1 elements in secion 1*/
+
+.section-1 h1 {
+    font-size: 60px;
+}
+
+
+/* first p element after heading*/
+
+#first-line {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+
+/* second p element after heading and is only visible in screen containing widh more thsn 500px*/
+
+#second-line {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+/* music section */
+
+.section-2 {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* second line of section 2 after heading*/
+
+#second-line-section-2 {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+
+/* p elements in section 2*/
+
+.section-2 p {
+    font-size: 22px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+/* free trial button in section  with red background*/
+
+#btn-sec-2 {
+    background-color: red;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+
+/* tablet and mobile image in section 2 */
+
+#image-sec-2 {
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+}
+
+
+/* video section */
+
+.section-3 {
+    text-align: center;
+}
+
+.section-3 h1 {
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.801);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-3 p {
+    padding: 20px 100px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+
+/* read more button in section 3 */
+
+#btn-sec-3 {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+}
+
+
+/* overview section with beach background*/
+
+.section-4 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-4 h1 {
+    padding-top: 170px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.section-4 p {
+    padding: 20px 100px;
+    line-height: 1.5;
+    font-size: 25px;
+    padding-bottom: 170px;
+}
+
+
+/* gift cards section */
+
+.section-5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: whitesmoke;
+    padding-top: 30px;
+}
+
+#section-5-image img {
+    width: 90%;
+    margin-left: 50px;
+    gap: 130px;
+}
+
+#section-5-content {
+    padding-right: 80px;
+    text-align: center;
+}
+
+#section-5-content h1 {
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#section-5-content p {
+    line-height: 1.5;
+}
+
+
+/* line before horizontal line before redeen button*/
+
+#orange-cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* redeem button in section 5 with red background after hr (horizontal line)*/
+
+#redeem-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: turquoise;
+}
+
+
+/* footer 1*/
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.932);
+    color: rgba(255, 255, 255, 0.479);
+    padding: 30px 50px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    padding-top: 3px;
+}
+
+footer h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer hr {
+    margin-bottom: 15px;
+}
+
+
+/* footer 2 */
+
+#footer-2 {
+    background-color: black;
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+/* for fixed navbar  */
+
+.fixed {
+    position: fixed;
+    width: 100vw;
+}
+
+
+/* Media Queries */
+
+
+/* thix code is for screens containing width less than 500px*/
+
+@media (max-width:500px) {
+    /*for  body */
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /* all buttons in navbar except muyntunes button and navbar icon*/
+    .btn-navbar {
+        display: none;
+    }
+    /* navbar icon */
+    .navbar-icon {
+        display: block;
+    }
+    #nav-icon {
+        display: block;
+    }
+    .navbar-icon {
+        position: absolute;
+        right: 0px;
+    }
+    /* first section*/
+    .section-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50vh;
+        width: 100vw;
+    }
+    /* first line after mytunes heading*/
+    #first-line {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+    #second-line {
+        display: none;
+    }
+    #second-line-section-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 35px;
+    }
+    .section-2 p {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    #p-before-image-section-2 {
+        font-size: 15px;
+    }
+    #image-sec-2 {
+        height: 35vh;
+        width: 90vw;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .section-3 h1 {
+        font-size: 25px;
+        padding: 20px;
+    }
+    .section-3 p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #image-sec-3 {
+        height: 40vh;
+        width: 80%;
+    }
+    .section-4 h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    .section-4 p {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+        padding-bottom: 70px;
+    }
+    .section-5 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #section-5-image {
+        width: 80vw;
+        height: 50vh;
+        justify-content: center;
+    }
+    #section-5-content {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    #section-5-content p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #section-5-content h1 {
+        padding-left: 10px;
+    }
+    .footer-1 {
+        display: none;
+    }
+    #footer-2 {
+        font-size: 10px;
+    }
+}
